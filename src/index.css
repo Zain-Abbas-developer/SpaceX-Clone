@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+
+@font-face {
+    font-family: "spacex";
+    src: url(../src/assets/fonts/D-DIN.otf);
+}
+@font-face {
+    font-family: "spacex bold";
+    src: url(../src/assets/fonts/D-DIN-Bold.otf);
+}
+@font-face {
+    font-family: "spacex italic";
+    src: url(../src/assets/fonts/D-DIN-Italic.otf);
+}
+@font-face {
+    font-family: "spacex condensedbold";
+    src: url(../src/assets/fonts/D-DINCondensed-Bold.otf);
+}
+@font-face {
+    font-family: "spacex exp";
+    src: url(../src/assets/fonts/D-DINExp.otf);
+}
+
+
