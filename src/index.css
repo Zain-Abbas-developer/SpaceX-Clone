@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@tailwind utilities;
 
 /* SpaceX Fonts */
 @font-face {
@@ -19,26 +20,12 @@
 
 @font-face {
     font-family: 'D-DIN-Condensed';
-    src: url('./assets/fonts/D-DIN-Condensed.otf') format('opentype');
+    src: url('./src/assets/fonts/D-DINCondensed-Bold.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
-@font-face {
-    font-family: "spacex italic";
-    src: url(../src/assets/fonts/D-DIN-Italic.otf);
-}
-@font-face {
-    font-family: "spacex condensedbold";
-    src: url(../src/assets/fonts/D-DINCondensed-Bold.otf);
-}
-@font-face {
-    font-family: "D-Din-REG";
-    src: url(../src/assets/fonts/D-DINExp.otf) format('opentype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
+
 
 
 body {
