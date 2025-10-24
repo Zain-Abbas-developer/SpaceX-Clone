@@ -40,11 +40,10 @@ const App = () => {
                  <ArrowRight className='-ml-2.5 transition-transform duration-300 ease-in-out group-hover:translate-x-2' size={20} />
                 </button>
               </div>
-              <div className='flex relative w-1/2 h-200 z-9 justify-center overflow-hidden border-2 border-amber-100'>
-                {/* video goes here  */}
-                 <h1 className='content-center '>text-center</h1>
+              <div className='relative w-1/2 h-screen overflow-hidden content-center'>
+                {/* video container */}
                  <video
-                    className="absolute top-0 left-[-100px] w-full h-full object-cover bg-cover"
+                    className="absolute top-[50px] left-[-310px] w-full h-full object-cover"
                     autoPlay
                     loop
                     muted
@@ -56,6 +55,7 @@ const App = () => {
               </div>
           </div>
        </div>
+       {/* content goes here and make it simple and more reliable  */}
     </div>
   )
 }
