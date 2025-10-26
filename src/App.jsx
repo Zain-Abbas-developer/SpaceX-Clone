@@ -5,6 +5,7 @@ import mars from '../src/assets/video/section_2.mp4'
 import landing from '../src/assets/video/section_4.mp4'
 import satellite  from './assets/video/section_6.mp4'
 import { ArrowRight, MoveRight, Satellite} from 'lucide-react'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -121,8 +122,15 @@ const App = () => {
             </video>
           </div>
           {/* content section  */}
-          <div className='absolute top-0 left-0 w-[50vw] h-[55vh] place-items-center border-2 border-white'></div>
+          <div className='absolute bottom-1 top-0 content-center w-[50vw] h-[55vh] my-[20%] ml-[100px] text-[#f0f0fa] z-10'>
+            <h1 className='text-[3.2em] uppercase leading-[60px] mb-3' style={{fontFamily: 'D-DIN-bold'}}>Delivering high-speed internet from space</h1>
+            <p>Starlink is the world’s most advanced satellite constellation in low-Earth orbit, delivering reliable broadband internet capable of supporting streaming, online gaming, video calls, and more.</p>
+            <button className='group flex w-[120px] h-[50px]  place-items-center text-center justify-center text-[.68rem] gap-4 text-white bg-black/50 rounded border-2 border-[#504646] mt-[35px] hover:bg-white uppercase hover:text-black hover:border-0 duration-150'>order now
+              <ArrowRight className='-ml-2.5 transition-transform duration-300 ease-in-out group-hover:translate-x-2' size={20} />
+            </button>
+          </div>
        </div>
+       <Footer/>
     </div>
   )
 }
